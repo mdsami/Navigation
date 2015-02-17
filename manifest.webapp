@@ -1,0 +1,33 @@
+{
+    "name": "Navigation",
+    "version": "2.0.6",
+    "description": "Navigation is a Google Maps  for Firefox Os",
+	"homepage": "http://www.starryit.com/",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/images/icons/icon_16.png",
+        "32": "/images/icons/icon_32.png",
+        "48": "/images/icons/icon_48.png",
+        "60": "/images/icons/icon_60.png",
+        "64": "/images/icons/icon_64.png",
+        "90": "/images/icons/icon_90.png",        
+        "128": "/images/icons/icon_128.png"
+    },
+    "developer": {
+        "name": "MD.SAMI",
+        "url": "http://www.starryit.com"
+    },
+	"licenses": {
+    "type": "MPL",
+    "url": "https://www.mozilla.org/MPL/2.0/"
+  },
+    "default_locale": "en",
+    "permissions": {
+      "geolocation": {
+        "description": "Navigation is a Google Maps GPS Navigation with Maps,google map street view , google map satellite view for Firefox Os"
+      },
+      "storage": {
+        "description": "Allow user to save as favorites apps"
+      }
+   }
+}
