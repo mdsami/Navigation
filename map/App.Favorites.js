@@ -17,12 +17,12 @@ App.Favorites = (function (){
        this.listContainer.className = 'favoritesListContainer';
 
        this.parsistData = function () {
-           localStorage.setItem ('gMapsFavorites', JSON.stringify (this.data));
+           localStorage.setItem ('zMapsFavorites', JSON.stringify (this.data));
        };
 
        this.loadData = function () {
 
-           var storedFavs = localStorage.getItem('gMapsFavorites');
+           var storedFavs = localStorage.getItem('zMapsFavorites');
 
            if (storedFavs) {
                this.data = JSON.parse (storedFavs);

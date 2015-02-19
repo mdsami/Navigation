@@ -20,7 +20,7 @@ App.init = function () {
     /*
     These are default initial info for main map
      */
-    var centerForReference = [ 23.684994, -90.356331 ];
+    var centerForReference = [ -7290062.644792909, -784416.66895491537 ];
     var convertedCenter    = ol.proj.transform(centerForReference, 'EPSG:3857', 'EPSG:4326');
     var location           = new google.maps.LatLng (convertedCenter[1], convertedCenter[0]);
 

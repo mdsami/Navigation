@@ -3,8 +3,9 @@
  *URL:https://github.com/mozartdiniz/zMaps
  *  MD.Sami<mdsami.diu@gmail.com>
  * Date: 27/01/15
- * Time: 2:01 AM
+ * Time: 2:01 PM
  */
+
 var App = App || {};
 
 App.Directions = {

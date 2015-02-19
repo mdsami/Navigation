@@ -5,7 +5,7 @@
  * Date: 27/01/15
  * Time: 2:01 AM
  */
- 
+
 var App = App || {};
 App.Search = App.Search || {};
 App.Search.Prediction = App.Search.Prediction || {};
@@ -220,9 +220,7 @@ App.Search.Prediction = {
         popover.appendChild(popUpContent);
         markerEl.appendChild(popover);
 
-        //usar pra saber o que o bunitim do objeto do google retorna
-        //console.log (info);
-
+        
         var marker = new ol.Overlay({
             element: markerEl,
             positioning: 'buttom-left',

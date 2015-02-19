@@ -1,12 +1,3 @@
-/*
-/ APP  Credit Zmap By  mozartdiniz
-/ URL:https://github.com/mozartdiniz/zMaps
-/ ~Navigation~
-/~ Dev: MD.SAMI~
-/-URL:http://www.starryit.com/md
-/ ALL right Reserve  © STARRY IT SOLUTIONS
-*/
-
 * {
     font-family: sans-serif;
 }
@@ -469,11 +460,11 @@ section#streetView > div > div > div {
     border-bottom: 1px solid #BBBBBB;
 }
 
-.originDestinyIcon {
+.icon2 {
     float: left;
     width: 10%;
     height: 80px;
-    background: url('../images/originDestinyIcon.png') center center no-repeat;
+    background: url('../images/Icon2.png') center center no-repeat;
 }
 
 .originField {
@@ -630,7 +621,7 @@ section#streetView > div > div > div {
     float: left;
     width: 20px;
     height: 40px;
-    background: url("../images/originDestinyIconSmall.png") no-repeat scroll center center transparent;
+    background: url("../images/icon2.png") no-repeat scroll center center transparent;
     float: left;
     position: absolute;
     margin-left: -5px;
@@ -654,7 +645,7 @@ section#streetView > div > div > div {
     position: absolute;
 }
 
-.alternativeInfo {
+.nofo {
     display: none;
     position: fixed;
     border: medium none;
@@ -673,7 +664,7 @@ section#streetView > div > div > div {
     margin-top: -4px;
 }
 
-.destinyIcon {
+.icon {
     margin-top: 0;
 }
 

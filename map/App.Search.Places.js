@@ -5,6 +5,7 @@
  * Date: 27/01/15
  * Time: 2:01 AM
  */
+
 var App = App || {};
 App.Search = App.Search || {};
 App.Search.Places = App.Search.Place || {};
@@ -12,8 +13,8 @@ App.Search.Places = App.Search.Place || {};
 App.Search.Places = {
     service: function (reference, callback) {
 
-        var sami = document.getElementById('sami');
-        var service = new google.maps.places.PlacesService(sami);
+        var md = document.getElementById('md');
+        var service = new google.maps.places.PlacesService(md);
 
         service.getDetails({reference: reference}, function (data) {
                 callback(data)
@@ -24,8 +25,8 @@ App.Search.Places = {
 
     getBound: function (text) {
 
-        var sami = document.getElementById('sami');
-        var service = new google.maps.places.PlacesService(sami);
+        var md = document.getElementById('md');
+        var service = new google.maps.places.PlacesService(md);
         var lCenter = App.Maps.map.getView().getCenter();
         var convertedCenter = ol.proj.transform(lCenter, 'EPSG:3857', 'EPSG:4326');
         var gCenter = new google.maps.LatLng(convertedCenter[1], convertedCenter[0]);
@@ -45,8 +46,8 @@ App.Search.Places = {
 
     getDetails: function () {
 
-        var sami = document.getElementById('sami');
-        var service = new google.maps.places.PlacesService(sami);
+        var md = document.getElementById('md');
+        var service = new google.maps.places.PlacesService(md);
 
         service.getDetails({reference: reference}, function (data) {
                 callback(data)
@@ -231,7 +232,7 @@ App.Search.Places = {
         }
 
         if (place.reviews) {
-            //numberOfReviews.appendChild(document.createTextNode(place.reviews.length + " reviews"));
+            
         }
 
         if (place.vicinity) {
